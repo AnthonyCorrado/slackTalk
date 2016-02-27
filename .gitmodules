@@ -1,0 +1,3 @@
+[submodule "slack-talk/slack-talk-client"]
+	path = slack-talk/slack-talk-client
+	url = git@github.com:AnthonyCorrado/slack-talk-client.git

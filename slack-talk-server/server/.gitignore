@@ -1,0 +1,8 @@
+# config
+/config.js
+
+# build
+/node_modules
+
+# misc
+/mock_data
