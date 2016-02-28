@@ -21,7 +21,7 @@ exports.getUsers = function() {
   var host = 'https://slack.com',
     path = '/api/users.list',
     query = '?token=',
-    token = '<token>';
+    token = '';
 
   return new RSVP.Promise(function(resolve, reject) {
     request.get(host + path + query + token, function(err, res, body) {
