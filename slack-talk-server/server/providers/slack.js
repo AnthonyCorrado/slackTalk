@@ -16,12 +16,11 @@ exports.sendRTM = function(to, body) {
   //   console.log(res);
   // })
 }
-
 exports.getUsers = function() {
   var host = 'https://slack.com',
     path = '/api/users.list',
     query = '?token=',
-    token = '';
+    token = apiKey;
 
   return new RSVP.Promise(function(resolve, reject) {
     request.get(host + path + query + token, function(err, res, body) {
